@@ -795,6 +795,12 @@ input {
   .video__container {
     padding: 0;
   }
+  .place__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: space-between;
+    gap: 15px;
+    margin: 10px auto;
+  }
 }
 
 /* For medium devices */
@@ -1012,5 +1018,11 @@ input {
   .home__container,
   .home__img {
     height: 640px;
+  }
+  .place__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: space-between;
+    gap: 15px;
+    margin: 10px auto;
   }
 }
